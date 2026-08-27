@@ -21,7 +21,7 @@ function HomePage() {
           <p className="mb-3 text-center text-[11px] font-medium uppercase tracking-widest text-slate-500">
             Created by
           </p>
-          <AuthorCard name="Ada Lovelace" role="Builder & maintainer" initials="AL" />
+          <AuthorCard name="John Doe" role="Builder & maintainer" initials="JD" />
         </div>
       </section>
     </main>
