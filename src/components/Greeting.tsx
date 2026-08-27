@@ -10,7 +10,7 @@ export function Greeting({ name }: GreetingProps) {
         Hello {name}
       </h1>
       <p className="mt-4 max-w-sm text-sm leading-relaxed text-slate-400 sm:text-base">
-        Your app is up and running. This is the friendliest place to start.
+        Welcome — everything is working perfectly.
       </p>
     </div>
   );
