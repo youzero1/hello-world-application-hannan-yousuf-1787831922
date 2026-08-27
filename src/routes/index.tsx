@@ -1,5 +1,6 @@
 import { createFileRoute } from '@tanstack/react-router';
 import { Greeting } from '@/components/Greeting';
+import { AuthorCard } from '@/components/AuthorCard';
 
 export const Route = createFileRoute('/')({
   component: HomePage,
@@ -15,6 +16,13 @@ function HomePage() {
 
       <section className="relative w-full max-w-md rounded-3xl border border-white/10 bg-white/5 px-8 py-12 shadow-2xl shadow-black/40 backdrop-blur-sm sm:px-12 sm:py-14">
         <Greeting name="World" />
+
+        <div className="mt-10 border-t border-white/10 pt-6">
+          <p className="mb-3 text-center text-[11px] font-medium uppercase tracking-widest text-slate-500">
+            Created by
+          </p>
+          <AuthorCard name="Ada Lovelace" role="Builder & maintainer" initials="AL" />
+        </div>
       </section>
     </main>
   );
